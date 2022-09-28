@@ -79,7 +79,7 @@
   const { id, internalId, title, variants, isAvailable } = product.result;
 
   // preparing the product data
-  // we kept linkedProducts, variants as extra may need in future
+  // we kept linkedProducts and variants as extra may need in future
   const productData = {
     productId: id,
     productInternalId: internalId,
